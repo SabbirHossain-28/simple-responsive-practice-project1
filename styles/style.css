@@ -3,3 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    text-align: center;
+    background-color: brown;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 15px;
+}
