@@ -32,3 +32,22 @@ img{
     grid-template-columns: repeat(2 , 1fr);
     gap: 5px;
 }
+@media screen and (max-width:576px) {
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .grid-img{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+}
